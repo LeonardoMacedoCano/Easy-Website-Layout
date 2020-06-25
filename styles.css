@@ -31,3 +31,7 @@ body {
 #content {
  	grid-area: content;
 }
+
+#sidebar {
+ 	grid-area: sidebar;
+}
