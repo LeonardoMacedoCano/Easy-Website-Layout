@@ -7,3 +7,11 @@ body{
 	background: #f7f7f7;
 	color: #1e1e1e;
 }
+
+#container{
+	margin: 0 auto;
+	padding: 0 1rem;
+	width: 900px;
+	max-width: 100%;
+	background-color: #f7f7f7;
+}
