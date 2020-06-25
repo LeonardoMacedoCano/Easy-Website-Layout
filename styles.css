@@ -27,3 +27,7 @@ body {
 #header {
  	grid-area: header;
 }
+
+#content {
+ 	grid-area: content;
+}
