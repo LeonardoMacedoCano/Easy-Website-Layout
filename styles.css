@@ -7,3 +7,19 @@ body {
 	background: #010e1e;
 	color: #ddd;
 }
+
+#container {
+	padding: 0 1rem;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-areas: "header" "content" "sidebar" "footer";
+	gap: 0.4rem;
+	text-align: center;
+}
+
+#container > * {
+	background: #032249;
+	font-size: 2rem;
+}
