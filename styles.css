@@ -39,3 +39,15 @@ body {
 #footer {
 	grid-area: footer;
 }
+
+@media screen and (min-width: 700px) {
+	#container {
+		width: 80vw;
+		margin: 0 auto;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: 60px minmax(-webkit-min-content, 70vh) 60px;
+		grid-template-rows: 60px minmax(min-content, 70vh) 60px;
+		grid-template-areas: "header header header header" "content content content sidebar" "footer footer footer footer";
+		gap: 1rem;
+	}
+}
