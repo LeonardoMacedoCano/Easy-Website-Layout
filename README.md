@@ -5,3 +5,5 @@
         <img src="img/demo.png" width="700" height="380" />
     </a>
 </p>
+
+Layout simples e fácil para Website, bom para se utilizar como base.
